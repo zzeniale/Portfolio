@@ -40,7 +40,7 @@ Python
 ##### Key Libraries
 `Pandas`, `numpy`, `Matplotlib`, `seaborn`
 
-### 2. Housing Price Prediction
+### 2. Ames Housing Price Prediction
 Oct 2019 | https://github.com/zzeniale/GA-Project-2-Ames-Housing-Regression
 
 <p align="center">

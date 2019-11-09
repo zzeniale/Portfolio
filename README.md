@@ -104,8 +104,12 @@ Python
 ##### Key Libraries
 `Requests`, `PRAW`, `regex`, `spacy`, `nltk`, `scikit-learn`: `CountVectorizer`, `TfidfVectorizer`, `Binarizer`, `SelectPercentile`, `mutual_info_classif`, `chi2`, `Pipeline`, `LogisticRegression`, `KNeighborsClassifier`, `MultinomialNB`
 
-### 4. West Nile Virus Prediction
+### 4. West Nile Virus Prediction in Chicago
 Nov 2019 | https://github.com/zzeniale/GA-Project-4-West-Nile-Virus-Prediction
+
+<p align="center">
+  <img width="700" src="./visualisations/project4.gif"  />
+</p>
 
 ##### Problem Statement
 West Nile virus (WNV) is the leading mosquito-borne disease in the United States ([CDC, 2009](https://www.cdc.gov/westnile/index.html)). It is primarily transmitted by mosquitoes (mainly <i>Culex</i> spp.). Cases of WNV occur during mosquito season, which starts in the summer and continues through fall ([CDC, 2009](https://www.cdc.gov/westnile/index.html)). About 1 in 5 people who are infected develop West Nile fever and other symptoms, and about 1 out of every 150 infected develop a serious and sometimes fatal illness ([CDC, 2009](https://www.cdc.gov/westnile/index.html)). There is currently no vaccine against WNV.
@@ -129,24 +133,6 @@ Python
 
 ##### Key Libraries 
 `imblearn`, `XGBClassifier`
-
-### 5. Traffic estimation from images (in progress)
-Nov 2019 
-
-##### Problem Statement
-
-
-##### Summary of Findings
-
-
-##### The Process
-
-
-##### Language
-Python
-
-##### Key Libraries 
-`OpenCV`
 
 
 ---

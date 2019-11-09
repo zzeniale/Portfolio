@@ -11,11 +11,11 @@ Hello 👋 I'm Elaine and this is a summary of the things I have worked on. More
 ---
 ## Data Science
 
-<h3 style="font-size:20pt; color:#191970;">
+<h3 style="color:#191970;">
 1. SAT and ACT scores analysis
 </h3>
 
-<p style="font-size:10pt;">
+<p style="font-size:80%;">
 Oct 2019 | https://github.com/zzeniale/GA-Project-1-SAT-ACT-analysis-and-recommendations
 </p>
 

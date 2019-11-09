@@ -10,27 +10,15 @@ Hello 👋 I'm Elaine and this is a summary of the things I have worked on. More
 
 ---
 ## Data Science
-<html>
-<body>
-<p style="color:red;">
-1. SAT and ACT scores analysis
-</p>
 
-
-<p style="font-size:800%;">
+### 1. SAT and ACT scores analysis
 Oct 2019 | https://github.com/zzeniale/GA-Project-1-SAT-ACT-analysis-and-recommendations
-</p>
-
-</body>
-</html>
-
-
 
 <p align="center">
 <img width="500" src="./visualisations/project1.gif"  />
 </p>
 
-**Problem Statement**<br>
+##### Problem Statement
 In this project I examined trends in SAT and ACT participation rates as well as aggregate scores from 2017 and 2018. Participation rates vary greatly by state, and the aim of this project was to uncover underlying patterns in order to suggest a suitable state in which to improve SAT participation rates.
 
 **Summary of Findings**<br>

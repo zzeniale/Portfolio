@@ -11,7 +11,7 @@ Hello 👋 I'm Elaine and this is a summary of the things I have worked on. More
 ---
 ## Data Science
 
-<p style="color:#191970;">
+<p style="color:MidnightBlue;">
 1. SAT and ACT scores analysis
 </p>
 

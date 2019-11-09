@@ -10,7 +10,8 @@ Hello 👋 I'm Elaine and this is a summary of the things I have worked on. More
 
 ---
 ## Data Science
-
+<html>
+<body>
 <p style="color:red;">
 1. SAT and ACT scores analysis
 </p>
@@ -20,6 +21,8 @@ Hello 👋 I'm Elaine and this is a summary of the things I have worked on. More
 Oct 2019 | https://github.com/zzeniale/GA-Project-1-SAT-ACT-analysis-and-recommendations
 </p>
 
+</body>
+</html>
 
 
 

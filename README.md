@@ -6,7 +6,7 @@ Hello 👋 I'm Elaine and this is a summary of the things I have worked on. More
 ## Contents
 1. [Data Science](https://github.com/zzeniale/portfolio#data-science)
 2. [Workflow Optimisations](https://github.com/zzeniale/portfolio#workflow-optimisations)
-3. [Side Projects](https://github.com/zzeniale/portfolio#visualisations)
+3. [Side Projects](https://github.com/zzeniale/portfolio#side-projects)
 
 ---
 ## Data Science
@@ -156,12 +156,8 @@ Python
 Jan 2019 | https://github.com/zzeniale/Windows-Explorer-Tools
 
 I made these to automate repetitive workflow tasks at work, such as copying and pasting from multiple directories, as we often had to manually sort through hundreds of photos from field surveys.
-
-**Script #1**<br>
-Copies and renames files from multiple folders. Useful for compiling multiple documents, such as photos placed into folders sorted by date. First prompts the user to select the parent folder.
-
-**Script #2**<br>
-Creates a list of sequentially named folders with a custom suffix in a directory. First prompts the user to select the directory and input the custom suffix. Useful when a large number of folders need to be created, e.g. for organisation of photos.
+1. <i>CopyFilesFromFolders.py</i>: Copies and renames files from multiple folders. Useful for compiling multiple documents, such as photos placed into folders sorted by date. First prompts the user to select the parent folder.
+2. <i>CreateFolders.py</i>: Creates a list of sequentially named folders with a custom suffix in a directory. First prompts the user to select the directory and input the custom suffix. Useful when a large number of folders need to be created, e.g. for organisation of photos.
 
 **Language**<br>
 Python
@@ -173,12 +169,8 @@ Python
 Feb 2019 | https://github.com/zzeniale/MS-Word-Tools
 
 These are two of the scripts I made to automate some repetitive and error-prone steps in report preparation (so that I can focus more time on actually writing the report):
-
-**Script #1**<br>
-Prompts the user to select a directory, and insert all photos from directory into a table in a word document. Useful for inserting large amounts of photos or graphics.
-
-**Script #2**<br>
-Colours cells in a table differently according to the values in them. First prompts the user to select a document that contains a table of values. Useful for creating visual representations of metrics (e.g. red for negative numbers, blue for zeros, green for positive numbers).
+1. <i>Word_ColourCells.py</i>: Prompts the user to select a directory, and insert all photos from directory into a table in a word document. Useful for inserting large amounts of photos or graphics.
+2. <i>Word_InsertPhotos.py</i>: Colours cells in a table differently according to the values in them. First prompts the user to select a document that contains a table of values. Useful for creating visual representations of metrics (e.g. red for negative numbers, blue for zeros, green for positive numbers).
 
 **Language**<br>
 Python

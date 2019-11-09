@@ -1,9 +1,7 @@
 # Portfolio
 ---
-    Hello 👋 I'm Elaine and this is a summary of the things I have worked on. More specific technical details are in their respective githubs (links included). If you're interested to know more, feel free to [get in touch](elainezw92@gmail.com)! 
-    
-    resumé
-    or check out my [LinkedIn](https://www.linkedin.com/in/elainezw/)!
+    Hello 👋 I'm Elaine and this is a summary of the things I have worked on. More specific technical details are in 
+    their respective githubs (links included). If you're interested to know more, feel free to [get in touch](elainezw92@gmail.com) (or check out my [resumé](.resume.png)/[LinkedIn](https://www.linkedin.com/in/elainezw/))! 
 
 --- 
 ## Contents
@@ -133,6 +131,23 @@ Python
 **Key Libraries Used**
 `imblearn`, `XGBClassifier`
 
+### 5. Traffic estimation from images (in progress)
+Nov 2019 
+
+**Problem Statement**
+
+
+**Summary of Findings**
+
+
+**The Process**
+
+
+**Language**
+Python
+
+**Key Libraries Used**
+`OpenCV`
 
 
 ---

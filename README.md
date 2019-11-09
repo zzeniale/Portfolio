@@ -108,7 +108,7 @@ Python
 Nov 2019 | https://github.com/zzeniale/GA-Project-4-West-Nile-Virus-Prediction
 
 <p align="center">
-  <img width="600" src="./visualisations/project4.png"  />
+  <img width="500" src="./visualisations/project4.png"  />
 </p>
 
 ##### Problem Statement

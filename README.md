@@ -3,7 +3,7 @@
 Hello 👋 I'm Elaine and this is a summary of the things I have worked on. More specific technical details are in their respective githubs (links included). If you're interested to know more, feel free to [get in touch](mailto:elainezw92@gmail.com) (or check out my [resumé](./resume.pdf)/[LinkedIn](https://www.linkedin.com/in/elainezw/))! 
 
 
-## Contents
+#### Contents
 1. [Data Science](https://github.com/zzeniale/portfolio#data-science)
 2. [Workflow Optimisations](https://github.com/zzeniale/portfolio#workflow-optimisations)
 3. [Side Projects](https://github.com/zzeniale/portfolio#side-projects)
@@ -40,6 +40,8 @@ Python
 ##### Key Libraries
 `pandas`, `NumPy`, `matplotlib`, `seaborn`
 
+<br><br>
+
 ### 2. Ames Housing Price Prediction
 Oct 2019 | https://github.com/zzeniale/GA-Project-2-Ames-Housing-Regression
 
@@ -71,6 +73,8 @@ Python
 ##### Key Libraries 
 `FeatureTools`, `scikit-learn`: `LinearRegression`, `Lasso`, `Ridge`, `ElasticNet`
 
+<br><br>
+
 ### 3. Subreddit Classification
 Oct 2019 | https://github.com/zzeniale/GA-Project-3-Subreddit-Classifiation
 
@@ -79,7 +83,7 @@ Oct 2019 | https://github.com/zzeniale/GA-Project-3-Subreddit-Classifiation
 </p>
 
 ##### Problem Statement
-In this project, I attempted to classify posts from two subreddits - [r/Singapore](https://www.reddit.com/r/singapore/) and [r/Malaysia](https://www.reddit.com/r/malaysia/). Despite their shared heritage and history (Singapore was part of Malaysia until her separation and independence on 9 August 1965 <sup>[[1]](http://eresources.nlb.gov.sg/history/events/dc1efe7a-8159-40b2-9244-cdb078755013)</sup>), Singapore has taken on a very different development path since independence. On the surface, the two countries seem very different today. The goal of this project is therefore to try and figure out how similar Singaporeans and Malaysians are, by looking at what they talk about on their subreddits. 
+In this project, I attempted to classify posts from two subreddits - [r/Singapore](https://www.reddit.com/r/singapore/) and [r/Malaysia](https://www.reddit.com/r/malaysia/). Despite their shared heritage and history (Singapore was part of Malaysia until her separation and independence on 9 August 1965 <sup>[1](http://eresources.nlb.gov.sg/history/events/dc1efe7a-8159-40b2-9244-cdb078755013)</sup>), Singapore has taken on a very different development path since independence. The goal of this project is therefore to try and figure out how similar Singaporeans and Malaysians are today, by looking at what they talk about on their subreddits. 
 
 ##### Summary of Findings
 I developed a word-frequency based classification model to predict the subreddit that a random post belongs to. A variety of preliminary models were tested and evaluated based on prediction accuracy, i.e. how many posts they were able to correctly classify. The final production model was a multinomial naive Bayes classifier that makes predictions based on title content and post lengths, with an accuracy of 71%. This shows that the posts in r/Malaysia and r/Singapore are fairly different, but still have a good amount of similarities. The differences may mainly be due to differences in current affairs in Singapore and Malaysia. It is therefore not surprising that the two subreddits are somewhat distinguishable from each other, as the current affair topics in different countries will undoubtedly be different. The similarities behind the model misclassifications may be due to more generic, day-to-day topics such as people asking for help or life advice, which are likely to be similar between the two countries.
@@ -100,7 +104,9 @@ To further improve model accuracy and ability to predict on future data, a bigge
 Python
 
 ##### Key Libraries
-`Requests`, `PRAW`, `regex`, `spacy`, `nltk`, `scikit-learn`: `CountVectorizer`, `TfidfVectorizer`, `Binarizer`, `SelectPercentile`, `mutual_info_classif`, `chi2`, `Pipeline`, `LogisticRegression`, `KNeighborsClassifier`, `MultinomialNB`
+`requests`, `PRAW`, `regex`, `spacy`, `nltk`, `scikit-learn`: `CountVectorizer`, `TfidfVectorizer`, `Binarizer`, `SelectPercentile`, `mutual_info_classif`, `chi2`, `Pipeline`, `LogisticRegression`, `KNeighborsClassifier`, `MultinomialNB`
+
+<br><br>
 
 ### 4. West Nile Virus Prediction in Chicago
 Nov 2019 | https://github.com/zzeniale/GA-Project-4-West-Nile-Virus-Prediction
@@ -123,13 +129,15 @@ This was a group project, and my contributions were:
 - engineer new features such as temperature x precipitation, delayed temperature and precipitation, etc
 - tuning and evaluation of XGB classifier
 - creating data visualisations
-- tpresentation of findings
+- presentation of findings
 
 ##### Language
 Python
 
 ##### Key Libraries 
 `imblearn`, `XGBClassifier`
+
+<br><br>
 
 ### 5. Traffic estimation from images (in progress)
 Nov 2019 

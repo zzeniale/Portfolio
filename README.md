@@ -40,7 +40,7 @@ Python
 ##### Key Libraries
 `pandas`, `NumPy`, `matplotlib`, `seaborn`
 
-<br><br>
+<br>
 
 ### 2. Ames Housing Price Prediction
 Oct 2019 | https://github.com/zzeniale/GA-Project-2-Ames-Housing-Regression
@@ -73,7 +73,7 @@ Python
 ##### Key Libraries 
 `FeatureTools`, `scikit-learn`: `LinearRegression`, `Lasso`, `Ridge`, `ElasticNet`
 
-<br><br>
+<br>
 
 ### 3. Subreddit Classification
 Oct 2019 | https://github.com/zzeniale/GA-Project-3-Subreddit-Classifiation
@@ -106,7 +106,7 @@ Python
 ##### Key Libraries
 `requests`, `PRAW`, `regex`, `spacy`, `nltk`, `scikit-learn`: `CountVectorizer`, `TfidfVectorizer`, `Binarizer`, `SelectPercentile`, `mutual_info_classif`, `chi2`, `Pipeline`, `LogisticRegression`, `KNeighborsClassifier`, `MultinomialNB`
 
-<br><br>
+<br>
 
 ### 4. West Nile Virus Prediction in Chicago
 Nov 2019 | https://github.com/zzeniale/GA-Project-4-West-Nile-Virus-Prediction
@@ -137,7 +137,7 @@ Python
 ##### Key Libraries 
 `imblearn`, `XGBClassifier`
 
-<br><br>
+<br>
 
 ### 5. Traffic estimation from images (in progress)
 Nov 2019 
@@ -155,6 +155,8 @@ Python
 ##### Key Libraries 
 `OpenCV`
 
+<br>
+
 ---
 ## Workflow Optimisations
 
@@ -171,6 +173,8 @@ Python
 ##### Key Libraries
 `os`, `tkinter`
 
+<br>
+
 ### 2. Microsoft Word Tools
 Feb 2019 | https://github.com/zzeniale/MS-Word-Tools
 
@@ -184,6 +188,7 @@ Python
 ##### Key Libraries
 `docx`, `os`, `tkinter`
 
+<br>
 
 ### 3. Webscraper for Digital Globe
 Jun 2019 | https://github.com/zzeniale/Webscraper-for-Digital-Globe
@@ -196,6 +201,7 @@ Python
 ##### Key Libraries
 `Selenium`
 
+<br>
 
 ---
 ## Side Projects

@@ -2,7 +2,7 @@
 ---
 Hello 👋 I'm Elaine and this is a summary of the things I have worked on. More specific technical details are in their respective githubs (links included). If you're interested to know more, feel free to [get in touch](mailto:elainezw92@gmail.com) (or check out my [resumé](./resume.pdf)/[LinkedIn](https://www.linkedin.com/in/elainezw/))! 
 
---- 
+
 ## Contents
 1. [Data Science](https://github.com/zzeniale/portfolio#data-science)
 2. [Workflow Optimisations](https://github.com/zzeniale/portfolio#workflow-optimisations)
@@ -38,7 +38,7 @@ Based on data examined, efforts to increase SAT participation rates should be fo
 Python
 
 ##### Key Libraries
-`Pandas`, `numpy`, `Matplotlib`, `seaborn`
+`pandas`, `NumPy`, `matplotlib`, `seaborn`
 
 ### 2. Ames Housing Price Prediction
 Oct 2019 | https://github.com/zzeniale/GA-Project-2-Ames-Housing-Regression
@@ -51,13 +51,11 @@ Oct 2019 | https://github.com/zzeniale/GA-Project-2-Ames-Housing-Regression
 I examined a comprehensive housing dataset from the city of Ames in Iowa, USA ([source](https://www.kaggle.com/c/dsi-us-6-project-2-regression-challenge/overview)). Homeowners looking to increase the value of their homes often spend too much on remodeling and don't get the return on investment when selling the house. On the other hand, people looking to buy houses want to get the best house possible given a budget. The goal of this project is to address some of these concerns, such as which features add the most value to a home, and what kind of house one would be able to afford with a certain budget. 
 
 ##### Summary of Findings
-I tested four different regression models using a variety of feature engineering techniques. An elastic net regression model had the best predictive performance on housing sale price in Ames USA. The model revealed that square feet area, condition, age, and the location of the house are the most important determinant factors of how much a house sells for. With an R2 of 0.903, it can be used to predict house prices in Ames with relatively high accuracy based on characteristics of the house.
+I tested four different regression models using a variety of feature engineering techniques. An elastic net regression model had the best predictive performance on housing sale price in Ames USA. The model revealed that square feet area, condition, age, and the location of the house are the most important determinants for how much a house sells for. With an R<sup>2</sup> of 0.903, it can be used to predict house prices in Ames between 2006 to 2010 with relatively high accuracy based on characteristics of the house.
 
-For those looking to invest, houses in the Northridge Heights, Stone Brook, and Northridge neighbourhoods all had higher prices compared to other neighbourhoods, likely due to their proximity to the city center. If one is looking to sell, they should do it sooner rather than later, as the age of the house is one the biggest contributing factor to the decrease in value. Having a garage in bad condition also negatively affect value, as does having a second floor to the house. Those looking to increase the value of their home could consider increasing the square footage of their house, renovating the kitchen and garage, and adding a fireplace.
+If one is looking to sell, they should do it sooner rather than later, as the age of the house is one the biggest contributing factor to the decrease in value. Having a garage in bad condition negatively affect value, and those looking to increase the value of their home could consider increasing the square footage of their house, renovating the kitchen and garage, and adding a fireplace.
 
-The model may however have limited applicabilities, as it was developed using data on houses sold between 2006 - 2010 in Ames, USA. This dataset is limited in scope both in terms of the time frame captured, as well as location. The small time frame of four years is not enough to capture any annual changes in sale price that could arise as a result of external factors, such as the current economy. The model is also specific to houses in Ames and may not be as accurate when applied to data from another city or country, where house prices may be affected by different things than for example, garage quality.
-
-In reality, house price may be difficult to predict as it is also affected by buyers' psychology, the economic climate, and other factors not included in the present dataset. There will never be a perfect model; the aim of this model is therefore not to give a perfect prediction, but act as a guideline to inform decisions.
+The model may however have limited applicabilities, as it was developed using data on houses sold between 2006 - 2010 in Ames, USA. This dataset is limited in scope both in terms of the time frame captured, as well as location. In reality, house price may be difficult to predict as it is also affected by buyers' psychology, the economic climate, and other factors not included in the present dataset. There will never be a perfect model; the aim of this model is therefore not to give a perfect prediction, but act as a guideline to inform decisions.
 
 ##### The Process
 - deal with missing data, outliers, and skewed distributions
@@ -81,12 +79,12 @@ Oct 2019 | https://github.com/zzeniale/GA-Project-3-Subreddit-Classifiation
 </p>
 
 ##### Problem Statement
-In this project, I attempted to classify posts from two subreddits - [r/Singapore](https://www.reddit.com/r/singapore/) and [r/Malaysia](https://www.reddit.com/r/malaysia/). Despite their shared heritage and history (Singapore was part of Malaysia until her separation and independence on 9 August 1965 <sup>[[1]](http://eresources.nlb.gov.sg/history/events/dc1efe7a-8159-40b2-9244-cdb078755013)</sup>), Singapore has taken on a very different development path since independence. On the surface, the two countries seem very different today - different languages, different racial and religious compositions, etc. However, their citizens may have more in common than people from both countries usually like to admit. The goal of this project is therefore to try and figure out how similar Singaporeans and Malaysians are, by looking at what they talk about on their subreddits. 
+In this project, I attempted to classify posts from two subreddits - [r/Singapore](https://www.reddit.com/r/singapore/) and [r/Malaysia](https://www.reddit.com/r/malaysia/). Despite their shared heritage and history (Singapore was part of Malaysia until her separation and independence on 9 August 1965 <sup>[[1]](http://eresources.nlb.gov.sg/history/events/dc1efe7a-8159-40b2-9244-cdb078755013)</sup>), Singapore has taken on a very different development path since independence. On the surface, the two countries seem very different today. The goal of this project is therefore to try and figure out how similar Singaporeans and Malaysians are, by looking at what they talk about on their subreddits. 
 
 ##### Summary of Findings
 I developed a word-frequency based classification model to predict the subreddit that a random post belongs to. A variety of preliminary models were tested and evaluated based on prediction accuracy, i.e. how many posts they were able to correctly classify. The final production model was a multinomial naive Bayes classifier that makes predictions based on title content and post lengths, with an accuracy of 71%. This shows that the posts in r/Malaysia and r/Singapore are fairly different, but still have a good amount of similarities. The differences may mainly be due to differences in current affairs in Singapore and Malaysia. It is therefore not surprising that the two subreddits are somewhat distinguishable from each other, as the current affair topics in different countries will undoubtedly be different. The similarities behind the model misclassifications may be due to more generic, day-to-day topics such as people asking for help or life advice, which are likely to be similar between the two countries.
 
-To further improve model accuracy, a bigger corpus that incorporates a bigger vocabulary on the current affairs in Singapore and Malaysia is needed. As news are constantly changing, new words are also constantly emerging in these subreddits. Therefore, it would not be enough to train the model on/obtain the training corpus from past subreddit posts. A more useful corpus for model training would be english new sites that report on both Singapore and Malaysia, such Channel News Asia.
+To further improve model accuracy and ability to predict on future data, a bigger corpus that incorporates a bigger vocabulary on the current affairs in Singapore and Malaysia is needed. As news are constantly changing, new words are also constantly emerging in these subreddits. Therefore, it would not be enough to train the model on/obtain the training corpus from past subreddit posts. A more useful corpus for model training would be english new sites that report on both Singapore and Malaysia, such Channel News Asia.
 
 ##### The Process
 - scrape data using the Reddit API
@@ -112,21 +110,20 @@ Nov 2019 | https://github.com/zzeniale/GA-Project-4-West-Nile-Virus-Prediction
 </p>
 
 ##### Problem Statement
-West Nile virus (WNV) is the leading mosquito-borne disease in the United States ([CDC, 2009](https://www.cdc.gov/westnile/index.html)). It is primarily transmitted by mosquitoes (mainly <i>Culex</i> spp.). Cases of WNV occur during mosquito season, which starts in the summer and continues through fall ([CDC, 2009](https://www.cdc.gov/westnile/index.html)). About 1 in 5 people who are infected develop West Nile fever and other symptoms, and about 1 out of every 150 infected develop a serious and sometimes fatal illness ([CDC, 2009](https://www.cdc.gov/westnile/index.html)). There is currently no vaccine against WNV.
-
-In view of the recent outbreak of WNV in Chicago, the Chicago Department of Public Health (CDPH) has set up a surveillance and control system to trap mosquitos and test for the presence of WNV. The goal of this project is to use these surveillance data ([source](https://www.kaggle.com/c/predict-west-nile-virus/)) to predict the occurrence of WNV given time, location, and mosquito species. Findings from this project can help guide and inform decisions on where and when to deploy pesticides throughout the city, to maximise pesticide effectiveness and minimise spending.
+West Nile virus (WNV) is the leading mosquito-borne disease in the United States ([CDC, 2009](https://www.cdc.gov/westnile/index.html)). In view of the recent outbreak of WNV in Chicago, the Chicago Department of Public Health (CDPH) has set up a surveillance and control system to trap mosquitos and test for the presence of WNV. The goal of this project is to use these surveillance data ([source](https://www.kaggle.com/c/predict-west-nile-virus/)) to predict the occurrence of WNV, given time, location, and mosquito species. Findings from this project can help guide and inform decisions on where and when to deploy pesticides throughout the city, to maximise pesticide effectiveness and minimise spending.
 
 ##### Summary of Findings
-Using XGBoost (our best performing model), we achieved an ROC_AUC of 0.834. Using the model, we found that WNV is more prevalent under certain conditions. Week of year was the top predictor by far for our model, followed by day of year, 18-days rolling sum of daylight hours, <i>Culex restuans</i>, and 18-days rolling mean of average temperature. This means that WNV is most likely to occur during certain weeks of the year, and therefore spray efforts should be concentrated during this period. Location was not a strong predictor in our model, suggesting that WNV clusters may be transient, occurring where best conditions emerge. 
+Using XGBoost (our best performing model), we achieved an ROC_AUC of 0.834. With this model, we found that WNV is more prevalent under certain conditions. Week of year was the top predictor by far for our model, followed by day of year, 18-days rolling sum of daylight hours, <i>Culex restuans</i>, and 18-days rolling mean of average temperature. This means that WNV is most likely to occur during certain weeks of the year, and therefore spray efforts should be concentrated during this period. 
 
 After conducting a cost-benefit analysis, we found that the money saved from reducing WNV cases would at most fund about 300 - 500 sprays. However, examination of mosquito numbers and WNV occurences before and after spraying does not conclusively show an effect from spraying. Most of the spraying was conducted in September, but WNV peaks in August. Therefore, more evidence (from a better designed spraying regime) are needed for a more concrete recommendation. For example, spraying efforts could be concentrated at the beginning of August so that there would be enough time to observe if mosquito numbers decline, in the relative absence of other confounding factors (such as temperature). 
 
 ##### The Process
-As this was a group project, my contributions were:
+This was a group project, and my contributions were:
 - examine and clean weather data and data from mosquito traps 
 - engineer new features such as temperature x precipitation, delayed temperature and precipitation, etc
 - tuning and evaluation of XGB classifier
-- presentation of findings
+- creating data visualisations
+- tpresentation of findings
 
 ##### Language
 Python
@@ -134,6 +131,21 @@ Python
 ##### Key Libraries 
 `imblearn`, `XGBClassifier`
 
+### 5. Traffic estimation from images (in progress)
+Nov 2019 
+
+<p align="center">
+  <img width="700" src="./visualisations/capstone.png"  />
+</p>
+
+##### Problem Statement
+Estimation of traffic conditions is important for allowing commuters to decide the best time and route of travel. This is an especially pertinent problem at the two causeways (Woodlands and Tuas) that bridge the strait between Singapore and Malaysia, one of the busiest overland border crossings in the region<sup>[1](https://infographics.channelnewsasia.com/interactive/causewayjam/index.html)</sup>. On an average day, 350,000 travellers cross the Woodlands causeway alone<sup>[2](https://www.straitstimes.com/singapore/a-look-at-woodlands-checkpoint-singapores-first-and-last-line-of-defence)</sup>. For Singaporeans, crossing into Malaysia can take anywhere from 30 minutes at optimal conditions and several hours during popular crossing times such as Saturday mornings. Having an understanding of existing traffic conditions at the checkpoints would allow Singaporean commuters to make better decisions about whether or not to make the journey across at a given time.
+
+##### Language
+Python
+
+##### Key Libraries 
+`OpenCV`
 
 ---
 ## Workflow Optimisations

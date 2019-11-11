@@ -157,7 +157,7 @@ Estimation of traffic conditions is important in allowing commuters to decide on
 Python
 
 ##### Key Libraries 
-`OpenCV`
+`OpenCV`, `scikit-image`
 
 <br>
 

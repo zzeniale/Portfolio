@@ -1,6 +1,6 @@
 # Portfolio
 ---
-Hello 👋 I'm Elaine and this is a summary of the things I have worked on. More specific technical details are in their respective githubs (links included). If you're interested to know more, feel free to [get in touch](mailto:elainezw92@gmail.com) (or check out my [resumé](./resume.pdf)/[LinkedIn](https://www.linkedin.com/in/elainezw/))! 
+Hello 👋 I'm Elaine and this is a summary of the things I have worked on. More specific technical details are in their respective githubs (links included). If you're interested to know more, feel free to [get in touch](mailto:elainezw92@gmail.com) (or check out my [résumé](./resume.pdf)/[LinkedIn](https://www.linkedin.com/in/elainezw/))! 
 
 
 #### Contents
@@ -150,14 +150,15 @@ Nov 2019
 Estimation of traffic conditions is important in allowing commuters to decide on the best time and route of travel. This is an especially pertinent problem at the two causeways (Woodlands and Tuas) that bridge the strait between Singapore and Malaysia. On an average day, 350,000 travellers cross the Woodlands causeway alone<sup>[1](https://www.straitstimes.com/singapore/a-look-at-woodlands-checkpoint-singapores-first-and-last-line-of-defence)</sup>, making it one of the busiest overland border crossings in the region<sup>[2](https://infographics.channelnewsasia.com/interactive/causewayjam/index.html)</sup>. For Singaporeans, crossing into Malaysia can take anywhere from 30 minutes at optimal conditions and several hours during popular crossing times such as Saturday mornings. Having an understanding of existing traffic conditions at the checkpoints would allow Singaporean commuters to make better decisions about whether or not to make the journey across at a given time.
 
 ##### Current Progress
-- I first attempted to detect cars in traffic camera images using object detection algorithms ([YOLO](https://pjreddie.com/darknet/yolo/)). This proved largely unsuccessful as the images were of very low resolutions, and most cars could not be detected.
-- I then used the background subtraction function available in `OpenCV`, and had reasonable success isolating moving foreground from the background. I was then able to use contour detection to isolate individual cars. However, this performs poorly when the road is crowded. I am currently working on a solution for this. 
+- I first explored the semantic segmentation/object detection approach, and attempted to detect cars in traffic camera images using a [web-hosted version](http://i-learn-machine-learning.science/object_detection/) of [YOLO](https://pjreddie.com/darknet/yolo/) algorithm. This proved largely unsuccessful as the images were of very low resolutions, and the vast majority of the cars could not be detected.
+- Using the background subtraction function from `OpenCV`, I was able to extract from each image the moving foreground (i.e. cars). These were used as inputs to a basic 3-layers convolutional neural network, which was able to classify the images into three preliminary categories (low, medium, and high traffic) with an extremely high accuracy of 98%. 
+- I am now exploring ways to model the number of cars in each image by adapting crowd-counting algorithms. 
 
 ##### Language
 Python
 
 ##### Key Libraries 
-`OpenCV`, `scikit-image`
+`OpenCV`, `scikit-image`, `keras`
 
 <br>
 

@@ -154,7 +154,7 @@ The goal of this project is to use deep learning and image processing techniques
 ##### Summary of Findings
 The low resolution of the images hindered the training of an object detection model. As such, in this project I used a background subtraction algorithm (as shown in the figure above) followed by several machine learning and deep learning approaches to predict the number of cars in each image. The final production (XGBoost) model extracts the number of cars from traffic images with relatively high accuracy (test MAE = 6.59), thus providing a direct estimation of road congestion in contrast to the proxy-based model used by Google Maps, which bases their traffic information on a combination of real-time data sent by smartphones and historic travel times. However, what this model lacks is the ability to estimate travel times. The two approaches should therefore be considered complementary, and could be combined for a more well-rounded application that provides better recommendations to commuters.
 
-Model deployment is covered in a different repository: https://github.com/zzeniale/traffic-app. Future expansions to include the Woodlands Checkpoint, nighttime traffic, as well as forecasting are possible.
+Model deployment (still a work in progress) is covered in a different repository: https://github.com/zzeniale/traffic-app. Future expansions to include the Woodlands Checkpoint, nighttime traffic, as well as forecasting are possible.
 
 ##### The Process
 - scrape images from the [traffic cameras API](https://data.gov.sg/dataset/traffic-images) on Data.gov.sg
@@ -165,7 +165,7 @@ Model deployment is covered in a different repository: https://github.com/zzenia
 - deploy production model in Heroku with `Flask`
 
 ##### Language & Tools
-Python, Heroku
+Python, Heroku (Advanced Scheduler, Heroku Postgres)
 
 ##### Key Libraries 
 `requests`, `OpenCV`, `scikit-image`, `keras`, `Flask`

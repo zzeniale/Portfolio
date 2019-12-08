@@ -12,7 +12,7 @@ Hello 👋 I'm Elaine and this is a summary of the things I have worked on. More
 ## Data Science
 
 ### 1. SAT and ACT scores analysis
-Oct 2019 | https://github.com/zzeniale/GA-Project-1-SAT-ACT-analysis-and-recommendations
+Oct 2019 | https://github.com/zzeniale/SAT-and-ACT-scores-analysis
 
 <p align="center">
 <img width="500" src="./visualisations/project1.gif"  />
@@ -43,7 +43,7 @@ Python
 <br>
 
 ### 2. Ames Housing Price Prediction
-Oct 2019 | https://github.com/zzeniale/GA-Project-2-Ames-Housing-Regression
+Oct 2019 | https://github.com/zzeniale/Ames-housing-price-prediction
 
 <p align="center">
   <img width="700" src="./visualisations/project2.png"  />
@@ -76,7 +76,7 @@ Python
 <br>
 
 ### 3. Subreddit Classification
-Oct 2019 | https://github.com/zzeniale/GA-Project-3-Subreddit-Classifiation
+Oct 2019 | https://github.com/zzeniale/subreddit-classification
 
 <p align="center">
   <img width="700" src="./visualisations/project3.png"  />
@@ -109,7 +109,7 @@ Python
 <br>
 
 ### 4. West Nile Virus Prediction in Chicago
-Nov 2019 | https://github.com/zzeniale/GA-Project-4-West-Nile-Virus-Prediction
+Nov 2019 | https://github.com/zzeniale/West-Nile-Virus-prediction
 
 <p align="center">
   <img width="500" src="./visualisations/project4.png"  />

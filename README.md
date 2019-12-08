@@ -5,7 +5,7 @@ Hello 👋 I'm Elaine and this is a summary of the things I have worked on. More
 
 #### Contents
 1. [Data Science](https://github.com/zzeniale/portfolio#data-science)
-2. [Workflow Optimisations](https://github.com/zzeniale/portfolio#workflow-optimisations)
+2. [Workflow Optimisation Tools](https://github.com/zzeniale/portfolio#workflow-optimisation-tools)
 3. [Side Projects](https://github.com/zzeniale/portfolio#side-projects)
 
 ---
@@ -76,7 +76,7 @@ Python
 <br>
 
 ### 3. Subreddit Classification
-Oct 2019 | https://github.com/zzeniale/subreddit-classification
+Oct 2019 | https://github.com/zzeniale/Subreddit-classification
 
 <p align="center">
   <img width="700" src="./visualisations/project3.png"  />
@@ -173,7 +173,7 @@ Python, Heroku (Advanced Scheduler, Heroku Postgres)
 <br>
 
 ---
-## Workflow Optimisations
+## Workflow Optimisation Tools
 
 ### 1. Windows Explorer Tools
 Jan 2019 | https://github.com/zzeniale/Windows-Explorer-Tools

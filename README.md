@@ -171,7 +171,7 @@ Python
 
 ### 1. Home-baking
 <p align="center">
-  <img src="./visualisations/shortbread.png" width=700>
+  <img src="./visualisations/shortbread.png" width=800>
 </p>
 
 In January 2021, I successfully launched a home-baking venture, carrying out pop-up sales and managing all aspects of operations including marketing and design (some of which are shown above), logistics, product formulation, and manufacturing. My current product line-up mainly consists of millionaire shortbread, for which 3 different flavours are currently offered. Over 150 shortbread have since been sold. 
@@ -186,7 +186,7 @@ I also use a Python script to access my Google order form and to parse my orders
 *[https://elainezphotography.wordpress.com/](https://elainezphotography.wordpress.com/)*
 
 <p align="center">
-  <img src="./visualisations/photos.png" width=700>
+  <img src="./visualisations/photos.png" width=800>
 </p>
 
 Photography has been a long-time passion of mine because of how impactful photos can be. I have been taking photos for over ten years now. My main interests are wildlife, landscape, and travel photography. Nowadays I shoot mostly when I travel, when I'm not at home shooting the food that I cooked. Some of my favourite projects are:

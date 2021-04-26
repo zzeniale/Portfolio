@@ -1,8 +1,6 @@
 # Portfolio
 ---
-Hello 👋 I'm Elaine and this is a summary of the things I have worked on, up to December 2019. In January 2020, I began a new position as Data Scientist at a food-tech start-up, so my current projects are still very much confidential! 
-
-More specific technical details are in their respective githubs (links included). If you're interested to know more, feel free to [get in touch](mailto:elainezw92@gmail.com) (or check out my [résumé](./resume_v20210424.pdf)/[LinkedIn](https://www.linkedin.com/in/elainezw/))! 
+Hello 👋 !  I'm Elaine and I'm a Data Scientist at a food-tech start-up. This is a summary of the various projects I have worked on, barring the more confidential work projects. More specific technical details are in their respective githubs (links included). If you're interested to know more, feel free to [get in touch](mailto:elainezw92@gmail.com) (or check out my [résumé](./resume_v20210424.pdf)/[LinkedIn](https://www.linkedin.com/in/elainezw/))! 
 
 #### Contents
 1. [Data Science](https://github.com/zzeniale/portfolio#data-science)

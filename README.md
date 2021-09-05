@@ -10,6 +10,26 @@ Hello 👋 !  I'm Elaine and I'm a Data Scientist at a food-tech start-up. This 
 ---
 ## Data Science
 
+### Current 
+My current projects at Hoow Foods involve modelling various processes involved in food reformulation, with the goal being to produce healthier alternatives without compromising on taste. 
+
+- Data collection: `Selenium`, `Tesseract`
+- Data cleaning: `Pandas`, `NumPy`
+- Machine learning: `Scikit-learn`, `imblearn`, 
+- Model deployment: `Flask`, `Kivy`
+
+Custom metrics 
+
+
+- Developing optimisation and machine learning algorithms using PyTorch and Scikit-learn to model key processes involved in the company’s reformulation technology.
+- Overseeing and managing a small data science team.
+- Deploying productionised model and designing simple GUI with Flask and Kivy.
+- Gathering and cleaning large sets of raw data using Selenium, Tesseract, and Pandas.
+- Presenting and interpreting model findings according to business needs in weekly internal presentations.
+- Conducted laboratory experiments in accordance with GLP and GDP as part of a reformulation project for a major client in the food industry.
+- Supervised staff performing laboratory experiments to evaluate machine learning algorithms.
+
+
 ### 1. SAT and ACT scores analysis (General Assembly Course)
 *Oct 2019 | [https://github.com/zzeniale/SAT-and-ACT-scores-analysis](https://github.com/zzeniale/SAT-and-ACT-scores-analysis)*
 

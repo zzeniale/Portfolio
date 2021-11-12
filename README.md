@@ -1,6 +1,6 @@
 # Portfolio
 ---
-Hello 👋 !  I'm Elaine and I'm a Data Scientist at a food-tech start-up. This is a summary of the various projects I have worked on, barring the more confidential work projects. More specific technical details are in their respective githubs (links included). If you're interested to know more, feel free to [get in touch](mailto:elainezw92@gmail.com) (or check out my [résumé](./resume_v20210424.pdf)/[LinkedIn](https://www.linkedin.com/in/elainezw/))! 
+Hello 👋 !  I'm Elaine and I'm a Data Scientist at a food-tech start-up. This is a summary of the various projects I have worked on, barring the more confidential work projects. More specific technical details are in their respective githubs (links included). If you're interested to know more, feel free to [get in touch](mailto:elainezw92@gmail.com) (or check out my [resume](./resume_v20211105.pdf)/[LinkedIn](https://www.linkedin.com/in/elainezw/))! 
 
 #### Contents
 1. [Data Science](https://github.com/zzeniale/portfolio#data-science)
@@ -15,45 +15,15 @@ My current projects at Hoow Foods involve modelling various processes involved i
 
 - Data collection: `Selenium`, `Tesseract`
 - Data cleaning: `Pandas`, `NumPy`
-- Machine learning: `Scikit-learn`, `imblearn`, 
-- Model deployment: `Flask`, `Kivy`
-
-Custom metrics 
-
-
-- Developing optimisation and machine learning algorithms using PyTorch and Scikit-learn to model key processes involved in the company’s reformulation technology.
-- Overseeing and managing a small data science team.
-- Deploying productionised model and designing simple GUI with Flask and Kivy.
-- Gathering and cleaning large sets of raw data using Selenium, Tesseract, and Pandas.
-- Presenting and interpreting model findings according to business needs in weekly internal presentations.
-- Conducted laboratory experiments in accordance with GLP and GDP as part of a reformulation project for a major client in the food industry.
-- Supervised staff performing laboratory experiments to evaluate machine learning algorithms.
+- Optimisation: `PuLP`
+- Machine learning: `Scikit-learn`, `imblearn`, `PyTorch`
+- NLP: sentence vectors, named-entity recognition
+- Network analysis: community detection, bipartite networks, Louvain algorithm, Leiden algorithm, `NetworkX`, Gephi, Neo4j
+- Model deployment: `Flask`, `Kivy`, `Dash`
 
 
-### 1. SAT and ACT scores analysis (General Assembly Course)
-*Oct 2019 | [https://github.com/zzeniale/SAT-and-ACT-scores-analysis](https://github.com/zzeniale/SAT-and-ACT-scores-analysis)*
-
-<p align="center">
-<img width="500" src="./visualisations/project1.gif"  />
-</p>
-
-In this project, I examined trends in SAT and ACT participation rates as well as aggregate scores from 2017 and 2018. Participation rates vary greatly by state, and the aim of this project was to uncover underlying patterns in order to suggest a suitable state in which to improve SAT participation rates.
-
-High participation rates for one test usually means low participation rates in the other, a trend that is especially true for states where one of the tests is mandatory. As such, efforts to increase participation rates for the SAT should be diverted away from states currently with mandatory ACT testings, as they may not be as effective in these states.
-
-Test scores remained largely similar between 2017 and 2018, as did the states that scored the highest/lowest (see figure above). In states that made one test mandatory for all students, test scores also tend to be lower for that test, compared to results from states where the test is voluntary.
-
-Based on data examined, efforts to increase SAT participation rates should be focused on California, where neither the SAT or ACT is currently mandatory at the moment. As of 2018, its SAT participation rates remained below the 50th percentile compared to other states. Being the most populous state in the US with high population densities, focusing on California would allow for greater efficiency in the distribution of manpower and efforts. Possible measures that can be implemented include making practice resources more readily available, and reducing the cost of taking the SAT.
-
-##### Language
-Python
-
-##### Key Libraries
-`pandas`, `NumPy`, `matplotlib`, `seaborn`
-
-<br>
-
-### 2. Ames Housing Price Prediction (General Assembly Course)
+### General Assembly Course projects
+#### 1. Ames Housing Price Prediction
 *Oct 2019 | [https://github.com/zzeniale/Ames-housing-price-prediction](https://github.com/zzeniale/Ames-housing-price-prediction)*
 <p align="center">
   <img width="700" src="./visualisations/project2.png"  />
@@ -67,15 +37,12 @@ If one is looking to sell, they should do it sooner rather than later, as the ag
 
 The model may however have limited applicabilities, as it was developed using data on houses sold between 2006 - 2010 in Ames, USA. This dataset is limited in scope both in terms of the time frame captured, as well as location. In reality, house price may be difficult to predict as it is also affected by buyers' psychology, the economic climate, and other factors not included in the present dataset. There will never be a perfect model; the aim of this model is therefore not to give a perfect prediction, but act as a guideline to inform decisions.
 
-##### Language
-Python
-
 ##### Key Libraries 
 `FeatureTools`, `scikit-learn`: `LinearRegression`, `Lasso`, `Ridge`, `ElasticNet`
 
 <br>
 
-### 3. Subreddit Classification (General Assembly Course)
+### 2. Subreddit Classification
 *Oct 2019 | [https://github.com/zzeniale/Subreddit-classification](https://github.com/zzeniale/Subreddit-classification)*
 <p align="center">
   <img width="700" src="./visualisations/project3.png"  />
@@ -87,35 +54,12 @@ I developed a word-frequency based classification model to predict the subreddit
 
 To further improve model accuracy and ability to predict on future data, a bigger corpus that incorporates a bigger vocabulary on the current affairs in Singapore and Malaysia is needed. As news are constantly changing, new words are also constantly emerging in these subreddits. Therefore, it would not be enough to train the model on/obtain the training corpus from past subreddit posts.
 
-##### Language
-Python
-
 ##### Key Libraries
 `requests`, `PRAW`, `regex`, `spacy`, `nltk`, `scikit-learn`: `CountVectorizer`, `TfidfVectorizer`, `Binarizer`, `SelectPercentile`, `mutual_info_classif`, `chi2`, `Pipeline`, `LogisticRegression`, `KNeighborsClassifier`, `MultinomialNB`
 
 <br>
 
-### 4. West Nile Virus Prediction in Chicago (General Assembly Course)
-*Nov 2019 | [https://github.com/zzeniale/West-Nile-Virus-prediction](https://github.com/zzeniale/West-Nile-Virus-prediction)*
-<p align="center">
-  <img width="500" src="./visualisations/project4.png"  />
-</p>
-
-West Nile virus (WNV) is the leading mosquito-borne disease in the United States ([CDC, 2009](https://www.cdc.gov/westnile/index.html)). In view of the recent outbreak of WNV in Chicago, the Chicago Department of Public Health (CDPH) has set up a surveillance and control system to trap mosquitos and test for the presence of WNV. The goal of this project is to use these surveillance data ([source](https://www.kaggle.com/c/predict-west-nile-virus/)) to predict the occurrence of WNV, given time, location, and mosquito species. Findings from this project can help guide and inform decisions on where and when to deploy pesticides throughout the city, to maximise pesticide effectiveness and minimise spending.
-
-Using XGBoost (our best performing model), we achieved an ROC AUC of 0.834. With this model, we found that WNV is more prevalent under certain conditions. Week of year was the top predictor by far for our model, followed by day of year, and 18-days rolling sum of daylight hours. This means that WNV is most likely to occur during certain weeks of the year, and therefore spray efforts should be concentrated during these periods. 
-
-After conducting a cost-benefit analysis, we found that the money saved from reducing WNV cases would at most fund about 300 - 500 sprays. However, examination of mosquito numbers and WNV occurences before and after spraying does not conclusively show an effect from spraying. Most of the spraying was conducted in September, but WNV peaks in August. Therefore, more evidence (from a better designed spraying regime) are needed for a more concrete recommendation. For example, spraying efforts could be concentrated at the beginning of August so that there would be enough time to observe if mosquito numbers decline, in the relative absence of other confounding factors (such as temperature). 
-
-##### Language
-Python
-
-##### Key Libraries 
-`imblearn`, `xgboost`
-
-<br>
-
-### 5. Traffic volume estimation from images (General Assembly Course)
+### 3. Traffic volume estimation from images
 *Nov 2019 | [https://github.com/zzeniale/GA-Capstone-Project-Traffic-Volume-Prediction](https://github.com/zzeniale/GA-Capstone-Project-Traffic-Volume-Prediction)*
 
 <p align="center">
@@ -130,11 +74,8 @@ The low resolution of the images hindered the training of an object detection mo
 
 Model deployment (still a work in progress) is covered in [a different repository](https://github.com/zzeniale/traffic-app). Future expansions to include the Woodlands Checkpoint, nighttime traffic, as well as forecasting are possible.
 
-##### Language & Tools
-Python, Heroku (Advanced Scheduler, Heroku Postgres)
-
-##### Key Libraries 
-`requests`, `OpenCV`, `scikit-image`, `keras`, `Flask`
+##### Key Libraries & Tools
+`requests`, `OpenCV`, `scikit-image`, `keras`, `Flask`, Heroku (Advanced Scheduler, Heroku Postgres)
 
 <br>
 
@@ -144,10 +85,10 @@ Python, Heroku (Advanced Scheduler, Heroku Postgres)
 ### 1. Windows Explorer Tools
 *Jan 2019 | [https://github.com/zzeniale/Windows-Explorer-Tools](https://github.com/zzeniale/Windows-Explorer-Tools)*
 
-I made these to automate repetitive workflow tasks at work, such as copying and pasting from multiple directories, as we often had to manually sort through hundreds of photos from field surveys.
+I made these to automate repetitive workflow tasks at work, such as copying and pasting from multiple directories, as we often had to manually sort through hundreds of coral photos from dive surveys.
 
-1. <i>CopyFilesFromFolders.py</i>: Copies and renames files from multiple folders. Useful for compiling multiple documents, such as photos placed into folders sorted by date. First prompts the user to select the parent folder.
-2. <i>CreateFolders.py</i>: Creates a list of sequentially named folders with a custom suffix in a directory. First prompts the user to select the directory and input the custom suffix. Useful when a large number of folders need to be created, e.g. for organisation of photos.
+1. <i>copy_files_from_folders.py</i>: Copies and renames files from multiple folders. Useful for compiling multiple documents, such as photos placed into folders sorted by date. First prompts the user to select the parent folder.
+2. <i>create_folders.py</i>: Creates a list of sequentially named folders with a custom suffix in a directory. First prompts the user to select the directory and input the custom suffix. Useful when a large number of folders need to be created, e.g. for organisation of photos.
 
 ##### Language
 Python
@@ -162,8 +103,8 @@ Python
 
 These are two of the scripts I made to automate some repetitive and error-prone steps in report preparation (so that I can spend more time and effort on actually writing the report):
 
-1. <i>Word_ColourCells.py</i>: Prompts the user to select a directory, and insert all photos from directory into a table in a word document. Useful for inserting large amounts of photos or graphics.
-2. <i>Word_InsertPhotos.py</i>: Colours cells in a table differently according to the values in them. First prompts the user to select a document that contains a table of values. Useful for creating visual representations of metrics (e.g. red for negative numbers, blue for zeros, green for positive numbers).
+1. <i>insert_photos.py</i>: Prompts the user to select a directory, and insert all photos from directory into a table in a word document. Useful for inserting large amounts of photos or graphics.
+2. <i>colour_cells.py</i>: Colours cells in a table differently according to the values in them. First prompts the user to select a document that contains a table of values. Useful for creating visual representations of metrics (e.g. red for negative numbers, blue for zeros, green for positive numbers).
 
 ##### Language
 Python

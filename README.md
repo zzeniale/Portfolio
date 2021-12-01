@@ -11,12 +11,12 @@ Hello 👋 !  I'm Elaine and I'm a Data Scientist at a food-tech start-up. This 
 ## Data Science
 
 ### Current 
-My current projects at Hoow Foods involve modelling various processes involved in food reformulation, with the goal being to produce healthier alternatives without compromising on taste. 
+My current projects at Hoow Foods involve modelling various processes involved in food reformulation, with the goal being producing healthier alternatives without compromising on taste and texture.
 
 - Data collection: `Selenium`, `Tesseract`
 - Data cleaning: `Pandas`, `NumPy`
-- Optimisation: `PuLP`
-- Machine learning: `Scikit-learn`, `imblearn`, `PyTorch`
+- Optimisation: `PuLP`, genetic algorithm
+- Machine learning: `Scikit-learn`, `imblearn`, `PyTorch`, `Keras`
 - NLP: sentence vectors, named-entity recognition
 - Network analysis: community detection, bipartite networks, Louvain algorithm, Leiden algorithm, `NetworkX`, Gephi, Neo4j
 - Model deployment: `Flask`, `Kivy`, `Dash`

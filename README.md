@@ -1,6 +1,6 @@
 # Portfolio
 ---
-Hello 👋 !  I'm Elaine and I'm a Data Scientist at a food-tech start-up. This is a summary of the various projects I have worked on, barring the more confidential work projects. More specific technical details are in their respective githubs (links included). If you're interested to know more, feel free to [get in touch](mailto:elainezw92@gmail.com) (or check out my [resume](./resume_v20211105.pdf)/[LinkedIn](https://www.linkedin.com/in/elainezw/))! 
+Hello 👋 !  I'm Elaine and I'm a Data Scientist at a food-tech start-up. This is a summary of the various projects I have worked on, barring the more confidential work projects. More specific technical details are in their respective githubs (links included). If you're interested to know more, feel free to [get in touch](mailto:elainezw92@gmail.com), or check out my [resume](./resume_20211129.pdf)/[LinkedIn](https://www.linkedin.com/in/elainezw/). (Straits Times also did a [feature of my career switch](./20201213_ST feature.png).)
 
 #### Contents
 1. [Data Science](https://github.com/zzeniale/portfolio#data-science)

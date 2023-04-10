@@ -1,6 +1,6 @@
 # Portfolio
 ---
-Hello 👋 !  I'm Elaine and I'm a Data Scientist at a food-tech start-up. This is a summary of the various projects I have worked on, barring the more confidential work projects. More specific technical details are in their respective githubs (links included). If you're interested to know more, feel free to [get in touch](mailto:elainezw92@gmail.com), or check out my [resume](./resume_20211129.pdf)/[LinkedIn](https://www.linkedin.com/in/elainezw/). (Straits Times also did a [feature of my career switch](./20201213_ST_feature.png).)
+Hello 👋 !  I'm Elaine and I'm a Data Scientist. This is a summary of the various projects I have worked on, barring the more confidential work projects. More specific technical details are in their respective githubs (links included). If you're interested to know more, feel free to [get in touch](mailto:elainezw92@gmail.com), or check out my [LinkedIn](https://www.linkedin.com/in/elainezw/). In Dec 2020, the Straits Times (Singapore) did a [feature of my career switch](./20201213_ST_feature.png).
 
 #### Contents
 1. [Data Science](https://github.com/zzeniale/portfolio#data-science)
@@ -10,11 +10,20 @@ Hello 👋 !  I'm Elaine and I'm a Data Scientist at a food-tech start-up. This 
 ---
 ## Data Science
 
-### Current 
-My current projects at Hoow Foods involve modelling various processes involved in food reformulation, with the goal being producing healthier alternatives without compromising on taste and texture.
+### Blunomy (Feb 2022 - present)
+Blunomy is an energy consultancy that help clients on their paths to green energy and decarbonisation. My projects involves forecasting renewable energy uptakes and energy demands for energy companies.
+
+- Preprocessing and EDA: `Dask`, `Pandas`, `NumPy`, `GeoPandas`
+- Data visualisation and deployment: `Dash`, BitBucket pipelines, Google Cloud Run
+- Forecasting: `SciPy`
+- Schema validation: `Pandera`
+- Logging: `loguru` 
+
+
+### Hoow Foods (Jan 2020 - Jan 2022)
+Hoow Foods is a food-tech start up that focus on food reformulation for health benefits. My projects involved modelling various processes involved in food reformulation, with the goal being producing healthier alternatives without compromising on taste and texture.
 
 - Data collection: `Selenium`, `Tesseract`
-- Data cleaning: `Pandas`, `NumPy`
 - Optimisation: `PuLP`, genetic algorithm
 - Machine learning: `Scikit-learn`, `imblearn`, `PyTorch`, `Keras`
 - NLP: sentence vectors, named-entity recognition
@@ -135,9 +144,9 @@ Python
   <img src="./visualisations/shortbread.png" width=800>
 </p>
 
-In January 2021, I successfully launched a home-baking venture, carrying out pop-up sales and managing all aspects of operations including marketing and design (some of which are shown above), logistics, product formulation, and manufacturing. My current product line-up mainly consists of millionaire shortbread, for which 3 different flavours are currently offered. Over 150 shortbread have since been sold. 
+In January 2021, I successfully launched a home-baking venture, carrying out pop-up sales and managing all aspects of operations including marketing and design (some of which are shown above), logistics, product formulation, and manufacturing. My product line-up mainly consisted of millionaire shortbread, for which 3 different flavours were offered. Over 150 shortbread have been sold. 
 
-I also use a Python script to access my Google order form and to parse my orders: [https://github.com/zzeniale/google\_sheets\_parser](https://github.com/zzeniale/google_sheets_parser).
+I also use a Python script to access my Google order form and to collate my orders: [https://github.com/zzeniale/google\_sheets\_parser](https://github.com/zzeniale/google_sheets_parser).
 
 ##### Tools used
 - Google Forms, Google Sheets, Google Sheets API
@@ -157,5 +166,5 @@ Photography has been a long-time passion of mine because of how impactful photos
 - [Scottish Highlands and Islands (2013)](https://elainezphotography.wordpress.com/2013/10/23/2013-sep-scotland-uk/)
 
 ##### Tools used
-- DSLR
+- Sony A7C
 - Adobe Photoshop & Lightroom

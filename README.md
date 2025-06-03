@@ -1,28 +1,45 @@
 # Portfolio
 ---
-Hello 👋 !  I'm Elaine and I'm a Data Scientist. This is a summary of the various projects I have worked on, barring the more confidential work projects. More specific technical details are in their respective githubs (links included). If you're interested to know more, feel free to [get in touch](mailto:elainezw92@gmail.com), or check out my [LinkedIn](https://www.linkedin.com/in/elainezw/). In Dec 2020, the Straits Times (Singapore) did a [feature of my career switch](./20201213_ST_feature.png).
+Hello 👋 !  I'm Elaine and I've been working as a Data Scientist since 2020. This is a summary of the various projects I have worked on, barring the more confidential work projects. More specific technical details are in their respective repos (links included). If you're interested to know more, feel free to [get in touch](mailto:elainezw11@gmail.com), or check out my [LinkedIn](https://www.linkedin.com/in/elainezw/). 
+
+Prior to data science, I studied biology and was a marine biologist for 4 years. In Dec 2020, the Straits Times (Singapore) did a [feature of my career switch](./20201213_ST_feature.png).
 
 #### Contents
 1. [Data Science](https://github.com/zzeniale/portfolio#data-science)
 2. [Workflow Optimisation Tools](https://github.com/zzeniale/portfolio#workflow-optimisation-tools)
-3. [Side Projects](https://github.com/zzeniale/portfolio#side-projects)
 
 ---
 ## Data Science
 
-### Blunomy (Feb 2022 - present)
+### Xylo Systems (Aug 2023 - Apr 2025)
+Xylo is an early stage nature-tech start-up whose platform help clients measure and assess their ecosystem and biodiversity impacts. I was the sole data scientist, and led and implemented all data product development behind the client-facing UI.
+
+- Programming: Python, SQL
+- Preprocessing and EDA: `Pandas`, `NumPy`, `GeoPandas`, `Xarray`
+- Data collection: `Selenium`
+- Big data and distributed computing: `PySpark`
+- CI/CD and DevOps: Git, GitHub, GitHub Actions, unit tests
+- Schema validation: `Pandera`
+- Cloud computing: Microsoft Azure, Databricks
+- LLM: OpenAI API, OpenAI LLMs
+
+### Blunomy (Feb 2022 - Jul 2023)
 Blunomy is an energy consultancy that help clients on their paths to green energy and decarbonisation. My projects involves forecasting renewable energy uptakes and energy demands for energy companies.
 
-- Preprocessing and EDA: `Dask`, `Pandas`, `NumPy`, `GeoPandas`
-- Data visualisation and deployment: `Dash`, BitBucket pipelines, Google Cloud Run
+- Programming: Python
+- Preprocessing and EDA: `Pandas`, `Polars`, `NumPy`, `GeoPandas`
+- Big data and distributed computing: `Dask`
+- Data visualisation and deployment: `Dash`
 - Forecasting: `SciPy`
+- CI/CD and DevOps: Git, Bitbucket, Bitbucket Pipelines, unit tests
 - Schema validation: `Pandera`
-- Logging: `loguru` 
+- Cloud computing: GCP, Google Cloud Run
 
 
 ### Hoow Foods (Jan 2020 - Jan 2022)
-Hoow Foods is a food-tech start up that focus on food reformulation for health benefits. My projects involved modelling various processes involved in food reformulation, with the goal being producing healthier alternatives without compromising on taste and texture.
+Hoow Foods is an early stage food-tech start up that focus on food reformulation for health benefits. My projects involved modelling various processes involved in food reformulation, with the goal being producing healthier alternatives without compromising on taste and texture.
 
+- Programming: Python
 - Data collection: `Selenium`, `Tesseract`
 - Optimisation: `PuLP`, genetic algorithm
 - Machine learning: `Scikit-learn`, `imblearn`, `PyTorch`, `Keras`
@@ -135,36 +152,3 @@ Python
 `Selenium`
 
 <br>
-
----
-## Side Projects
-
-### 1. Home-baking
-<p align="center">
-  <img src="./visualisations/shortbread.png" width=800>
-</p>
-
-In January 2021, I successfully launched a home-baking venture, carrying out pop-up sales and managing all aspects of operations including marketing and design (some of which are shown above), logistics, product formulation, and manufacturing. My product line-up mainly consisted of millionaire shortbread, for which 3 different flavours were offered. Over 150 shortbread have been sold. 
-
-I also use a Python script to access my Google order form and to collate my orders: [https://github.com/zzeniale/google\_sheets\_parser](https://github.com/zzeniale/google_sheets_parser).
-
-##### Tools used
-- Google Forms, Google Sheets, Google Sheets API
-- Adobe Photoshop
-
-### 2. Photography
-*[https://elainezphotography.wordpress.com/](https://elainezphotography.wordpress.com/)*
-
-<p align="center">
-  <img src="./visualisations/photos.png" width=800>
-</p>
-
-Photography has been a long-time passion of mine because of how impactful photos can be. I have been taking photos for over ten years now. My main interests are wildlife, landscape, and travel photography. Nowadays I shoot mostly when I travel, when I'm not at home shooting the food that I cooked. Some of my favourite projects are:
-
-- [The Dalmatian Coast (2019)](https://elainezphotography.wordpress.com/2019/11/08/2019-august-dalmatia-croatia/)
-- [Farne Colonies (2015)](https://elainezphotography.wordpress.com/2015/07/26/2015-jun-farne-islands-uk/)
-- [Scottish Highlands and Islands (2013)](https://elainezphotography.wordpress.com/2013/10/23/2013-sep-scotland-uk/)
-
-##### Tools used
-- Sony A7C
-- Adobe Photoshop & Lightroom
